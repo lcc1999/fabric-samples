@@ -1,0 +1,13 @@
+
+*** Start chaincode event listening
+
+--> Submit Transaction: InitLedger, function creates the initial set of assets on the ledger 
+917578 458764 2752586
+*** Transaction committed successfully
+
+*** Start chaincode event replay
+
+--> Submit Transaction: CpkGen, function returns the result
+
+<-- Chaincode event replayed: spk - 917578
+signal: interrupt

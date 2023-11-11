@@ -1,0 +1,30 @@
+goos: linux
+goarch: amd64
+pkg: github.com/tuneinsight/lattigo/v4/drlwe
+cpu: Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz
+BenchmarkDRLWE/RelinKeyGen/GenRound1/LogN=12/logQP=109-8         	     309	   3802227 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound2/LogN=12/logQP=109-8         	     349	   3435836 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenShare/LogN=12/logQP=109-8          	     222	   5400078 ns/op
+BenchmarkDRLWE/RelinKeyGen/Agg/LogN=12/logQP=109-8               	   10000	    100235 ns/op
+BenchmarkDRLWE/RelinKeyGen/Finalize/LogN=12/logQP=109-8          	    4586	    255288 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRelinearizationKeyOneRound/LogN=12/logQP=109-8         	   26870	     43623 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound1/LogN=13/logQP=218-8                             	     224	   5113124 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound2/LogN=13/logQP=218-8                             	     280	   4266947 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenShare/LogN=13/logQP=218-8                              	     176	   6758932 ns/op
+BenchmarkDRLWE/RelinKeyGen/Agg/LogN=13/logQP=218-8                                   	    8799	    134912 ns/op
+BenchmarkDRLWE/RelinKeyGen/Finalize/LogN=13/logQP=218-8                              	    3525	    342315 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRelinearizationKeyOneRound/LogN=13/logQP=218-8         	   20295	     59048 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound1/LogN=14/logQP=438-8                             	      60	  18586219 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound2/LogN=14/logQP=438-8                             	      75	  15952966 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenShare/LogN=14/logQP=438-8                              	      46	  24594723 ns/op
+BenchmarkDRLWE/RelinKeyGen/Agg/LogN=14/logQP=438-8                                   	    1797	    646362 ns/op
+BenchmarkDRLWE/RelinKeyGen/Finalize/LogN=14/logQP=438-8                              	     444	   2758307 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRelinearizationKeyOneRound/LogN=14/logQP=438-8         	    1281	    945506 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound1/LogN=15/logQP=880-8                             	      12	  90885441 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRound2/LogN=15/logQP=880-8                             	      14	  83757526 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenShare/LogN=15/logQP=880-8                              	       8	 127108478 ns/op
+BenchmarkDRLWE/RelinKeyGen/Agg/LogN=15/logQP=880-8                                   	     270	   4365887 ns/op
+BenchmarkDRLWE/RelinKeyGen/Finalize/LogN=15/logQP=880-8                              	      85	  13995480 ns/op
+BenchmarkDRLWE/RelinKeyGen/GenRelinearizationKeyOneRound/LogN=15/logQP=880-8         	     241	   5055346 ns/op
+PASS
+ok  	github.com/tuneinsight/lattigo/v4/drlwe	47.540s
